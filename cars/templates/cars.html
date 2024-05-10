@@ -97,7 +97,9 @@
     <input type="text" name="search" placeholder="Buscar carro...">
     <button type="submit">Buscar</button>
   </form>
-
+  <div class="card-group">
+    {{ user }}
+  </div>  
   <div class="car-grid">
     {% if cars %}
       {% for car in cars %}
